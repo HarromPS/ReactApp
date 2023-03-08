@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+
+<body>
+    <span>
+        <table align="left" border="1">
+            <caption font-size="12px">Tables in HTML</caption>
+            <thead>
+                <tr>
+                    <th>thead1</th>
+                    <th>thead2</th>
+                    <th>thead3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                </tr>
+                <tr>
+                    <td>col 1</td>
+                    <td>col 2</td>
+                    <td>col 3</td>
+                </tr>
+            </tbody>
+        </table>
+    </span>
+    <hr>
+    <span>
+       
+        <table id="table" border="1" align="center" text-align="center">
+            <caption id="caption1">Student Details</caption>
+            <thead align="center">
+                <tr>
+                    <th>Sr No</th>
+                    <th>Name</th>
+                    <th>RollNo</th>
+                    <th>Class</th>
+                    <th>Division</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Ram</td>
+                    <td>10</td>
+                    <td>S.Y. IT</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pratik</td>
+                    <td>11</td>
+                    <td>S.Y. IT</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Raj</td>
+                    <td>12</td>
+                    <td>S.Y. IT</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ashutosh</td>
+                    <td>13</td>
+                    <td>S.Y. IT</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Amit</td>
+                    <td>14</td>                    
+                    <td>S.Y. IT</td>
+                    <td>D</td>
+                </tr>
+            </tbody>
+        </table>
+    </span>
+    <script>
+        let a = document.getElementsByClassName("tbody")[0];
+        a.style.textAlign = "center";
+        a.style.wordSpacing = "10px";
+        let b = document.getElementById("caption1");
+        b.style.fontSize = "15px";
+        let c=document.getElementById("table");
+    </script>
+</body>
+
+</html>

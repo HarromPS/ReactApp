@@ -1,0 +1,44 @@
+
+<!doctype html><html dir="ltr" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name="referrer" content="strict-origin"><title>New tab</title><body><div>This is me</div></body><script src="/base-error-reporting.js"></script><script src="/ntp-error-reporting.js"></script><script src="/config.js"></script><style>body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Segoe WP', system-ui, Arial, Sans-Serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+#modal-root {
+  position: fixed;
+}
+
+#bgimage {
+  position: fixed;
+  animation: fadein 500ms;
+}
+
+#fakebox {
+  padding-top: 15vh;
+  max-width: 760px;
+  min-width: 400px;
+  width: 47%;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media only screen and (max-height: 260px) {
+  #fakebox {
+    opacity: 0;
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}</style></head><body><div id="app-root"></div><div id="modal-root"></div><script defer="defer" src="/bundle.js"></script></body></html>

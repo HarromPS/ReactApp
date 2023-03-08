@@ -1,0 +1,16 @@
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.onBulb{
+    height: 80px;
+    width: 50px;
+    background-color: greenyellow;
+}
+
+.offBulb{
+    height: 300px;
+    width: 300px;
+}

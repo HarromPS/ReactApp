@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* class- (.yellow) 
+.className
+*/
+.yellow {
+    background: yellow;
+    color: white;
+}
+
+/* class-(.red) */
+.red {
+    background: red;
+    color: white;
+}
