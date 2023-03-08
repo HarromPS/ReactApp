@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "01_FUNCTIONS_RECURSION.C": "cpp",
+        "CVNG.C": "cpp",
+        "MY_GAME.C": "cpp",
+        "my_game.c.C": "cpp",
+        "stdbool.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
