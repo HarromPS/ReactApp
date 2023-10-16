@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pug</title>
+</head>
+<body>
+    <div>
+        <h1>This is a Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolorum dicta fuga!</p>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is a variable -->
+    <!-- <title>#{title}</title> -->
+    <title>Hello</title>
+
+    style
+        include ../static/style.css
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Gym Training Form - Fill Out Now!</h1>
+        <!-- <p>
+            | #{content}
+            | This is a comment
+        </p> -->
+
+        <form action="/" method="post">
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="number" name="age" placeholder="Enter Your Age">
+            <input type="text"  name="gender" placeholder="Enter Your Gender">
+            <textarea placeholder="Enter Your Address" name="address" rows="3" cols="3"></textarea>
+            <textarea placeholder="Enter About You" name="more" rows="3" cols="3"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
